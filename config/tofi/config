@@ -1,0 +1,17 @@
+font=iosevka nerd font medium
+font-size=12
+background-color = #1e1e2e
+outline-width=0
+border-width=2
+border-color=#3c3836
+text-color = #cdd6f4
+prompt-text=">"
+prompt-color = #f9e2af
+prompt-padding=4
+selection-color = #f38ba8
+selection-match-color= #d4be98
+corner-radius=15
+width=400
+height=500
+
+drun-launch = true

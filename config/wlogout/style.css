@@ -1,0 +1,85 @@
+
+/* Window styling */
+window {
+    font-family: Fira Code Medium;
+    font-size: 16pt;
+    color: #5d3178; /* Light text color from Catppuccin Mocha (text) */
+    background-color: rgba(24, 27, 32, 0.8); /* Mocha background with transparency */
+} 
+
+/* Button styling */
+button {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30%;
+    background-color: transparent;
+    animation: gradient_f 20s ease-in infinite;
+    transition: all 0.3s ease-in;
+    box-shadow: 0 0 10px 2px transparent;
+    border-radius: 36px;
+    margin: 10px;
+    color: #472a69; /* Light text color (Catppuccin Mocha) */
+    background-color: #2e2e2e; /* Mocha background color */
+    border: 2px solid transparent; /* Transparent border for sleekness */
+}
+
+/* Focus state on button */
+button:focus {
+    box-shadow: none;
+    background-size: 30%;
+    border-color: #281b2c; /* Lavender from Catppuccin Mocha */
+}
+
+
+/* Animation for the button's gradient effect */
+@keyframes gradient_f {
+    0% {
+        background-color: #775a9b; /* Lavender */
+    }
+    50% {
+        background-color: #83507b; /* Pale Lilac */
+    }
+    100% {
+        background-color: #493661; /* Lavender */
+    }
+}
+
+
+#shutdown {
+    background-image: url("/home/kehale/.config/assets/wlogout/assets/power.png");
+}
+#shutdown:hover {
+    background-image: url("/home/kehale/.config/assets/wlogout/assets/power-hover.png");
+}
+
+/* Logout button */
+#logout {
+    background-image: url("/home/kehale/.config/assets/wlogout/assets/logout.png");
+}
+#logout:hover {
+    background-image: url("/home/kehale/.config/assets/wlogout/assets/logout-hover.png");
+}
+
+/* Reboot button */
+#reboot {
+    background-image: url("/home/kehale/.config/assets/wlogout/assets/restart.png");
+}
+#reboot:hover {
+    background-image: url("/home/kehale/.config/assets/wlogout/assets/restart-hover.png");
+}
+
+/* Lock button */
+#lock {
+    background-image: url("/home/kehale/.config/assets/wlogout/assets/lock.png");
+}
+#lock:hover {
+    background-image: url("/home/kehale/.config/assets/wlogout/assets/lock-hover.png");
+}
+
+/* Hibernate button */
+#hibernate {
+    background-image: url("/home/kehale/.config/assets/wlogout/assets/hibernate.png");
+}
+#hibernate:hover {
+    background-image: url("/home/kehale/.config/assets/wlogout/assets/hibernate-hover.png");
+}
